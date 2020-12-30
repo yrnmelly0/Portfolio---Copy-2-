@@ -1,0 +1,102 @@
+@charset "utf-8"
+
+body {
+	background-color: #f6f5f5;
+	margin: 0px;
+	padding: 0px;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+section {
+	width: 100%;
+	height: 95vh;
+	background-image: url("../images/bg.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 60px;
+	background-color:#fff;
+	box-shadow: 2px 2px 12px rgba(0,0,0,02,);
+	padding: 0px 5%;
+}
+
+nav ul {
+	display: flex;
+}
+
+nav ul li a {
+	margin: 30px;
+	font-family: helvetica;
+	color: #505050;
+	font-size: 15px;
+	font-weight: 700;
+}
+
+.logo {
+	font-family: Verdana;
+	color: #000;
+	font-size: 25px;
+
+}
+
+.active{
+	color: #2d2a2a;
+	font-weight: bold;
+}
+
+.model {
+	height: 530px;
+	position:absolute;
+	left: 75%;
+	bottom: 40px;
+	transform: translateX(-75%);
+}
+
+
+.text-container p:nth-child(1) {
+	font-family: calibri;
+	font-weight: bold;
+	letter-spacing: 1px;
+	color: #1a1a1a;
+	font-size: 60px;
+}
+
+.text-container p:nth-child(2) {
+	font-family: calibri;
+	font-weight: bold;
+	letter-spacing: 1px;
+	color: #1a1a1a;
+	font-size:60px;}
+
+
+.text-container p:nth-child(3) {
+	font-family: calibri;
+	font-weight: bold;
+	letter-spacing: 1px;
+	color: #403e3e;
+	line-height: 30px;
+	font-size:30px;
+}
+
+.text-container p {
+	margin: 45px 0px 25px;
+	line-height: 0px;
+}
+
+
+
+
